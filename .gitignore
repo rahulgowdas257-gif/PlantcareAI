@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local application data and uploads
+plantcare.db
+plantcare.db-*
+uploads/*
+!uploads/.gitkeep
+
+# Local configuration / editor files
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
